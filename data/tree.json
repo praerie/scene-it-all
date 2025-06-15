@@ -34,19 +34,49 @@
         }
       },
       "no": {
-        "data": "Is the main character a teenager?",
+        "data": "Is the main character a teenager or a young adult?",
         "is_question": true,
         "yes": {
-          "data": "The Mitchells vs. The Machines",
-          "is_question": false,
-          "yes": null,
-          "no": null
+          "data": "Is the story set in a modern or futuristic world?",
+          "is_question": true,
+          "yes": {
+            "data": "The Mitchells vs. The Machines",
+            "is_question": false,
+            "yes": null,
+            "no": null
+          },
+          "no": {
+            "data": "Aladdin",
+            "is_question": false,
+            "yes": null,
+            "no": null
+          }
         },
         "no": {
-          "data": "Soul",
-          "is_question": false,
-          "yes": null,
-          "no": null
+          "data": "Is the main character a toy?",
+          "is_question": true,
+          "yes": {
+            "data": "Toy Story",
+            "is_question": false,
+            "yes": null,
+            "no": null
+          },
+          "no": {
+            "data": "Is the main character a robot?",
+            "is_question": true,
+            "yes": {
+              "data": "WALL-E",
+              "is_question": false,
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "data": "Soul",
+              "is_question": false,
+              "yes": null,
+              "no": null
+            }
+          }
         }
       }
     },
@@ -54,10 +84,20 @@
       "data": "Does most of the film take place in an alternate world or reality? (simulation, spirit realm, multiverse, etc.)",
       "is_question": true,
       "yes": {
-        "data": "Spirited Away",
-        "is_question": false,
-        "yes": null,
-        "no": null
+        "data": "Is the alternate world a spirit realm rooted in folklore or mythology?",
+        "is_question": true,
+        "yes": {
+          "data": "Spirited Away",
+          "is_question": false,
+          "yes": null,
+          "no": null
+        },
+        "no": {
+          "data": "Paprika",
+          "is_question": false,
+          "yes": null,
+          "no": null
+        }
       },
       "no": {
         "data": "Does the film contain magical elements?",
@@ -79,10 +119,20 @@
           }
         },
         "no": {
-          "data": "Only Yesterday",
-          "is_question": false,
-          "yes": null,
-          "no": null
+          "data": "Is the film a psychological thriller?",
+          "is_question": true,
+          "yes": {
+            "data": "Perfect Blue",
+            "is_question": false,
+            "yes": null,
+            "no": null
+          },
+          "no": {
+            "data": "Only Yesterday",
+            "is_question": false,
+            "yes": null,
+            "no": null
+          }
         }
       }
     }
@@ -94,10 +144,30 @@
       "data": "Does the film contain science fiction or fantasy elements?",
       "is_question": true,
       "yes": {
-        "data": "The Matrix",
-        "is_question": false,
-        "yes": null,
-        "no": null
+        "data": "Does most of the film take place in an alternate world or reality? (simulation, spirit realm, multiverse, etc.)",
+        "is_question": true,
+        "yes": {
+          "data": "The Matrix",
+          "is_question": false,
+          "yes": null,
+          "no": null
+        },
+        "no": {
+          "data": "Does the film involve time travel?",
+          "is_question": true,
+          "yes": {
+            "data": "Back to the Future",
+            "is_question": false,
+            "yes": null,
+            "no": null
+          },
+          "no": {
+            "data": "The Dark Knight",
+            "is_question": false,
+            "yes": null,
+            "no": null
+          }
+        }
       },
       "no": {
         "data": "Is the story centered around sisters?",
@@ -109,10 +179,30 @@
           "no": null
         },
         "no": {
-          "data": "Forrest Gump",
-          "is_question": false,
-          "yes": null,
-          "no": null
+          "data": "Is the story set in a prison?",
+          "is_question": true,
+          "yes": {
+            "data": "The Shawshank Redemption",
+            "is_question": false,
+            "yes": null,
+            "no": null
+          },
+          "no": {
+            "data": "Is it about organized crime?",
+            "is_question": true,
+            "yes": {
+              "data": "The Godfather",
+              "is_question": false,
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "data": "Forrest Gump",
+              "is_question": false,
+              "yes": null,
+              "no": null
+            }
+          }
         }
       }
     },
@@ -158,10 +248,20 @@
             }
           },
           "no": {
-            "data": "Harry Potter",
-            "is_question": false,
-            "yes": null,
-            "no": null
+            "data": "Is the world governed by physical laws altered through dream or technology rather than magic?",
+            "is_question": true,
+            "yes": {
+              "data": "Inception",
+              "is_question": false,
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "data": "Harry Potter",
+              "is_question": false,
+              "yes": null,
+              "no": null
+            }
           }
         }
       },
@@ -195,10 +295,20 @@
           }
         },
         "no": {
-          "data": "Ender's Game",
-          "is_question": false,
-          "yes": null,
-          "no": null
+          "data": "Is the story set in a futuristic or space-based environment?",
+          "is_question": true,
+          "yes": {
+            "data": "Ender's Game",
+            "is_question": false,
+            "yes": null,
+            "no": null
+          },
+          "no": {
+            "data": "Parasite",
+            "is_question": false,
+            "yes": null,
+            "no": null
+          }
         }
       }
     }
