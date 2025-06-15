@@ -1,0 +1,16 @@
+{
+  "data": "Was it made after 2010?",
+  "is_question": true,
+  "yes": {
+    "data": "Inside Out",
+    "is_question": false,
+    "yes": null,
+    "no": null
+  },
+  "no": {
+    "data": "Spirited Away",
+    "is_question": false,
+    "yes": null,
+    "no": null
+  }
+}
