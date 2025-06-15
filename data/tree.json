@@ -2,54 +2,204 @@
   "data": "Is it animated?",
   "is_question": true,
   "yes": {
-    "data": "Is it a Pixar film?",
+    "data": "Was it made in the U.S.?",
     "is_question": true,
     "yes": {
-      "data": "Is the main character an adult?",
+      "data": "Is the main character a child?",
       "is_question": true,
       "yes": {
-        "data": "Soul",
-        "is_question": false,
-        "yes": null,
-        "no": null
+        "data": "Is the story centered around sisters?",
+        "is_question": true,
+        "yes": {
+          "data": "Frozen",
+          "is_question": false,
+          "yes": null,
+          "no": null
+        },
+        "no": {
+          "data": "Is the central relationship between parent and child?",
+          "is_question": true,
+          "yes": {
+            "data": "Finding Nemo",
+            "is_question": false,
+            "yes": null,
+            "no": null
+          },
+          "no": {
+            "data": "Inside Out",
+            "is_question": false,
+            "yes": null,
+            "no": null
+          }
+        }
       },
       "no": {
-        "data": "Inside Out",
-        "is_question": false,
-        "yes": null,
-        "no": null
+        "data": "Is the main character a teenager?",
+        "is_question": true,
+        "yes": {
+          "data": "The Mitchells vs. The Machines",
+          "is_question": false,
+          "yes": null,
+          "no": null
+        },
+        "no": {
+          "data": "Soul",
+          "is_question": false,
+          "yes": null,
+          "no": null
+        }
       }
     },
     "no": {
-      "data": "Spirited Away",
-      "is_question": false,
-      "yes": null,
-      "no": null
-    }
-  },
-  "no": {
-    "data": "Is it part of a franchise?",
-    "is_question": true,
-    "yes": {
-      "data": "Avengers: Endgame",
-      "is_question": false,
-      "yes": null,
-      "no": null
-    },
-    "no": {
-      "data": "Is the film sci-fi or fantasy?",
+      "data": "Does most of the film take place in an alternate world or reality? (simulation, spirit realm, multiverse, etc.)",
       "is_question": true,
       "yes": {
-        "data": "Everything Everywhere All at Once",
+        "data": "Spirited Away",
         "is_question": false,
         "yes": null,
         "no": null
       },
       "no": {
-        "data": "Lady Bird",
+        "data": "Does the film contain magical elements?",
+        "is_question": true,
+        "yes": {
+          "data": "Is the main character human?",
+          "is_question": true,
+          "yes": {
+            "data": "Kiki's Delivery Service",
+            "is_question": false,
+            "yes": null,
+            "no": null
+          },
+          "no": {
+            "data": "Ponyo",
+            "is_question": false,
+            "yes": null,
+            "no": null
+          }
+        },
+        "no": {
+          "data": "Only Yesterday",
+          "is_question": false,
+          "yes": null,
+          "no": null
+        }
+      }
+    }
+  },
+  "no": {
+    "data": "Was it made before 2010?",
+    "is_question": true,
+    "yes": {
+      "data": "Does the film contain science fiction or fantasy elements?",
+      "is_question": true,
+      "yes": {
+        "data": "The Matrix",
         "is_question": false,
         "yes": null,
         "no": null
+      },
+      "no": {
+        "data": "Is the story centered around sisters?",
+        "is_question": true,
+        "yes": {
+          "data": "The Virgin Suicides",
+          "is_question": false,
+          "yes": null,
+          "no": null
+        },
+        "no": {
+          "data": "Forrest Gump",
+          "is_question": false,
+          "yes": null,
+          "no": null
+        }
+      }
+    },
+    "no": {
+      "data": "Does the film contain science fiction or fantasy elements?",
+      "is_question": true,
+      "yes": {
+        "data": "Does the film involve parallel universes or multiverse travel?",
+        "is_question": true,
+        "yes": {
+          "data": "Is the main character a superhero?",
+          "is_question": true,
+          "yes": {
+            "data": "Doctor Strange",
+            "is_question": false,
+            "yes": null,
+            "no": null
+          },
+          "no": {
+            "data": "Everything Everywhere All at Once",
+            "is_question": false,
+            "yes": null,
+            "no": null
+          }
+        },
+        "no": {
+          "data": "Is the story set in a dystopian future?",
+          "is_question": true,
+          "yes": {
+            "data": "Is the protagonist forced into their role by an external authority?",
+            "is_question": true,
+            "yes": {
+              "data": "The Hunger Games",
+              "is_question": false,
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "data": "Divergent",
+              "is_question": false,
+              "yes": null,
+              "no": null
+            }
+          },
+          "no": {
+            "data": "Harry Potter",
+            "is_question": false,
+            "yes": null,
+            "no": null
+          }
+        }
+      },
+      "no": {
+        "data": "Is the protagonist female?",
+        "is_question": true,
+        "yes": {
+          "data": "Is the film set in the 21st century?",
+          "is_question": true,
+          "yes": {
+            "data": "Lady Bird",
+            "is_question": false,
+            "yes": null,
+            "no": null
+          },
+          "no": {
+            "data": "Is the story centered around sisters?",
+            "is_question": true,
+            "yes": {
+              "data": "Little Women",
+              "is_question": false,
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "data": "The Help",
+              "is_question": false,
+              "yes": null,
+              "no": null
+            }
+          }
+        },
+        "no": {
+          "data": "Ender's Game",
+          "is_question": false,
+          "yes": null,
+          "no": null
+        }
       }
     }
   }
