@@ -1,16 +1,56 @@
 {
-  "data": "Was it made after 2010?",
+  "data": "Is it animated?",
   "is_question": true,
   "yes": {
-    "data": "Inside Out",
-    "is_question": false,
-    "yes": null,
-    "no": null
+    "data": "Is it a Pixar film?",
+    "is_question": true,
+    "yes": {
+      "data": "Is the main character an adult?",
+      "is_question": true,
+      "yes": {
+        "data": "Soul",
+        "is_question": false,
+        "yes": null,
+        "no": null
+      },
+      "no": {
+        "data": "Inside Out",
+        "is_question": false,
+        "yes": null,
+        "no": null
+      }
+    },
+    "no": {
+      "data": "Spirited Away",
+      "is_question": false,
+      "yes": null,
+      "no": null
+    }
   },
   "no": {
-    "data": "Spirited Away",
-    "is_question": false,
-    "yes": null,
-    "no": null
+    "data": "Is it part of a franchise?",
+    "is_question": true,
+    "yes": {
+      "data": "Avengers: Endgame",
+      "is_question": false,
+      "yes": null,
+      "no": null
+    },
+    "no": {
+      "data": "Is the film sci-fi or fantasy?",
+      "is_question": true,
+      "yes": {
+        "data": "Everything Everywhere All at Once",
+        "is_question": false,
+        "yes": null,
+        "no": null
+      },
+      "no": {
+        "data": "Lady Bird",
+        "is_question": false,
+        "yes": null,
+        "no": null
+      }
+    }
   }
 }
