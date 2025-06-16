@@ -20,10 +20,20 @@
           "data": "Is the central relationship between parent and child?",
           "is_question": true,
           "yes": {
-            "data": "Finding Nemo",
-            "is_question": false,
-            "yes": null,
-            "no": null
+            "data": "Is the parent searching for or protecting the child?",
+            "is_question": true,
+            "yes": {
+              "data": "Finding Nemo",
+              "is_question": false,
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "data": "The Boss Baby",
+              "is_question": false,
+              "yes": null,
+              "no": null
+            }
           },
           "no": {
             "data": "Inside Out",
@@ -75,10 +85,20 @@
             "data": "Is the main character a robot?",
             "is_question": true,
             "yes": {
-              "data": "WALL-E",
-              "is_question": false,
-              "yes": null,
-              "no": null
+              "data": "Is the robot surrounded by animals instead of humans?",
+              "is_question": true,
+              "yes": {
+                "data": "The Wild Robot",
+                "is_question": false,
+                "yes": null,
+                "no": null
+              },
+              "no": {
+                "data": "WALL-E",
+                "is_question": false,
+                "yes": null,
+                "no": null
+              }
             },
             "no": {
               "data": "Is the story rooted in fairy tale or folklore?",
