@@ -17,7 +17,7 @@ class Tree:
         if not node.is_question:
             answer = input(f"Is your film {node.data}? (yes/no): ").strip().lower()
             if answer == "yes":
-                print(f"You were thinking of {node.data}!")
+                print(f"⭐ Guessed it! You were thinking of {node.data}!")
                 return node 
             else:
                 return self._learn(node)
@@ -30,7 +30,7 @@ class Tree:
             return node
         
     def _learn(self, incorrect_node):
-        correct = input("I'm stumped! Which film are you thinking of? ").strip()
+        correct = input("❔ I'm stumped! Which film are you thinking of? ").strip()
         question = input(f"Help me out with a yes/no question to distinguish {correct} from {incorrect_node.data}: ").strip()
         answer = input(f"For {correct}, what is the answer? (yes/no): ").strip().lower()
 

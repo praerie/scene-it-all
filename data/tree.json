@@ -40,10 +40,20 @@
           "data": "Is the story set in a modern or futuristic world?",
           "is_question": true,
           "yes": {
-            "data": "The Mitchells vs. The Machines",
-            "is_question": false,
-            "yes": null,
-            "no": null
+            "data": "Is the central threat caused by artificial intelligence?",
+            "is_question": true,
+            "yes": {
+              "data": "The Mitchells vs. The Machines",
+              "is_question": false,
+              "yes": null,
+              "no": null
+            },
+            "no": {
+              "data": "Nimona",
+              "is_question": false,
+              "yes": null,
+              "no": null
+            }
           },
           "no": {
             "data": "Aladdin",
@@ -71,10 +81,20 @@
               "no": null
             },
             "no": {
-              "data": "Soul",
-              "is_question": false,
-              "yes": null,
-              "no": null
+              "data": "Is the story rooted in fairy tale or folklore?",
+              "is_question": true,
+              "yes": {
+                "data": "Shrek",
+                "is_question": false,
+                "yes": null,
+                "no": null
+              },
+              "no": {
+                "data": "Soul",
+                "is_question": false,
+                "yes": null,
+                "no": null
+              }
             }
           }
         }
@@ -147,10 +167,20 @@
         "data": "Does most of the film take place in an alternate world or reality? (simulation, spirit realm, multiverse, etc.)",
         "is_question": true,
         "yes": {
-          "data": "The Matrix",
-          "is_question": false,
-          "yes": null,
-          "no": null
+          "data": "Is the alternate reality experienced by only one person?",
+          "is_question": true,
+          "yes": {
+            "data": "Eternal Sunshine of the Spotless Mind",
+            "is_question": false,
+            "yes": null,
+            "no": null
+          },
+          "no": {
+            "data": "The Matrix",
+            "is_question": false,
+            "yes": null,
+            "no": null
+          }
         },
         "no": {
           "data": "Does the film involve time travel?",
@@ -162,46 +192,56 @@
             "no": null
           },
           "no": {
-            "data": "The Dark Knight",
-            "is_question": false,
-            "yes": null,
-            "no": null
-          }
-        }
-      },
-      "no": {
-        "data": "Is the story centered around sisters?",
-        "is_question": true,
-        "yes": {
-          "data": "The Virgin Suicides",
-          "is_question": false,
-          "yes": null,
-          "no": null
-        },
-        "no": {
-          "data": "Is the story set in a prison?",
-          "is_question": true,
-          "yes": {
-            "data": "The Shawshank Redemption",
-            "is_question": false,
-            "yes": null,
-            "no": null
-          },
-          "no": {
-            "data": "Is it about organized crime?",
+            "data": "Do the main characters undergo formal training?",
             "is_question": true,
             "yes": {
-              "data": "The Godfather",
+              "data": "Harry Potter and the Sorcerer's Stone",
               "is_question": false,
               "yes": null,
               "no": null
             },
             "no": {
-              "data": "Forrest Gump",
+              "data": "The Dark Knight",
               "is_question": false,
               "yes": null,
               "no": null
             }
+          }
+        }
+      },
+      "no": {
+        "data": "Does the story include vivid daydreams or imagined adventures?",
+        "is_question": true,
+        "yes": {
+          "data": "Is the main character a man?",
+          "is_question": true,
+          "yes": {
+            "data": "The Secret Life of Walter Mitty",
+            "is_question": false,
+            "yes": null,
+            "no": null
+          },
+          "no": {
+            "data": "Amelie",
+            "is_question": false,
+            "yes": null,
+            "no": null
+          }
+        },
+        "no": {
+          "data": "Is the story centered around crime, class, or justice?",
+          "is_question": true,
+          "yes": {
+            "data": "Parasite",
+            "is_question": false,
+            "yes": null,
+            "no": null
+          },
+          "no": {
+            "data": "The Maltese Falcon",
+            "is_question": false,
+            "yes": null,
+            "no": null
           }
         }
       }
@@ -257,54 +297,54 @@
               "no": null
             },
             "no": {
-              "data": "Harry Potter",
-              "is_question": false,
-              "yes": null,
-              "no": null
+              "data": "Is it a horror film?",
+              "is_question": true,
+              "yes": {
+                "data": "Sinister",
+                "is_question": false,
+                "yes": null,
+                "no": null
+              },
+              "no": {
+                "data": "Harry Potter and the Deathly Hallows: Part 2",
+                "is_question": false,
+                "yes": null,
+                "no": null
+              }
             }
           }
         }
       },
       "no": {
-        "data": "Is the protagonist female?",
+        "data": "Does the story include vivid daydreams or imagined adventures?",
         "is_question": true,
         "yes": {
-          "data": "Is the film set in the 21st century?",
+          "data": "Is the main character a man?",
           "is_question": true,
           "yes": {
-            "data": "Lady Bird",
+            "data": "The Secret Life of Walter Mitty",
             "is_question": false,
             "yes": null,
             "no": null
           },
           "no": {
-            "data": "Is the story centered around sisters?",
-            "is_question": true,
-            "yes": {
-              "data": "Little Women",
-              "is_question": false,
-              "yes": null,
-              "no": null
-            },
-            "no": {
-              "data": "The Help",
-              "is_question": false,
-              "yes": null,
-              "no": null
-            }
+            "data": "Amelie",
+            "is_question": false,
+            "yes": null,
+            "no": null
           }
         },
         "no": {
-          "data": "Is the story set in a futuristic or space-based environment?",
+          "data": "Is the story centered around crime, class, or justice?",
           "is_question": true,
           "yes": {
-            "data": "Ender's Game",
+            "data": "Parasite",
             "is_question": false,
             "yes": null,
             "no": null
           },
           "no": {
-            "data": "Parasite",
+            "data": "The Maltese Falcon",
             "is_question": false,
             "yes": null,
             "no": null
